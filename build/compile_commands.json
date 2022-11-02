@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/leafar/Documentos/dev/c_projects/paging_simulator/build",
+  "command": "/usr/bin/g++   -g -std=gnu++20 -o CMakeFiles/Paging_Simulator.dir/main.cpp.o -c /home/leafar/Documentos/dev/c_projects/paging_simulator/main.cpp",
+  "file": "/home/leafar/Documentos/dev/c_projects/paging_simulator/main.cpp"
+},
+{
+  "directory": "/home/leafar/Documentos/dev/c_projects/paging_simulator/build",
+  "command": "/usr/bin/g++   -g -std=gnu++20 -o CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.o -c /home/leafar/Documentos/dev/c_projects/paging_simulator/src/RandomNumberGenerator.cpp",
+  "file": "/home/leafar/Documentos/dev/c_projects/paging_simulator/src/RandomNumberGenerator.cpp"
+}
+]
