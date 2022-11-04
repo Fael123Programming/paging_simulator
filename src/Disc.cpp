@@ -14,6 +14,7 @@ Disc::Disc() {
 }
 
 void Disc::print() const {
+    std::cout << "##### DISC #####\n";
     row();
     std::cout << std::left << std::setw(SPACE_SIZE) << " " << "COLUMN\n";
     std::cout << std::left << std::setw(SPACE_SIZE) << " ";

@@ -20,6 +20,7 @@ Ram::Ram(Disc disc) {
 }
 
 void Ram::print() const {
+    std::cout << "##### RAM #####\n";
     row();
     std::cout << std::left << std::setw(SPACE_SIZE) << " " << "COLUMN\n";
     std::cout << std::left << std::setw(SPACE_SIZE) << " ";
@@ -40,7 +41,7 @@ void Ram::print() const {
         << std::left << std::setw(SPACE_SIZE) << "M";
     std::cout << std::endl;
     row();
-    for (int i = 0; i < DLINES; i++) {
+    for (int i = 0; i < RLINES; i++) {
         std::cout << std::left << std::setw(SPACE_SIZE) << i    // Row number.
             << std::left << std::setw(SPACE_SIZE) << this->data[i][0]  // Page number. 
             << std::left << std::setw(SPACE_SIZE) << this->data[i][1]  // Instruction number.
@@ -51,4 +52,3 @@ void Ram::print() const {
     }
     row();
 }
-

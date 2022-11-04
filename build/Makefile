@@ -153,6 +153,78 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Define.o: src/Define.cpp.o
+.PHONY : src/Define.o
+
+# target to build an object file
+src/Define.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/src/Define.cpp.o
+.PHONY : src/Define.cpp.o
+
+src/Define.i: src/Define.cpp.i
+.PHONY : src/Define.i
+
+# target to preprocess a source file
+src/Define.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/src/Define.cpp.i
+.PHONY : src/Define.cpp.i
+
+src/Define.s: src/Define.cpp.s
+.PHONY : src/Define.s
+
+# target to generate assembly for a file
+src/Define.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/src/Define.cpp.s
+.PHONY : src/Define.cpp.s
+
+src/Disc.o: src/Disc.cpp.o
+.PHONY : src/Disc.o
+
+# target to build an object file
+src/Disc.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/src/Disc.cpp.o
+.PHONY : src/Disc.cpp.o
+
+src/Disc.i: src/Disc.cpp.i
+.PHONY : src/Disc.i
+
+# target to preprocess a source file
+src/Disc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/src/Disc.cpp.i
+.PHONY : src/Disc.cpp.i
+
+src/Disc.s: src/Disc.cpp.s
+.PHONY : src/Disc.s
+
+# target to generate assembly for a file
+src/Disc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/src/Disc.cpp.s
+.PHONY : src/Disc.cpp.s
+
+src/Ram.o: src/Ram.cpp.o
+.PHONY : src/Ram.o
+
+# target to build an object file
+src/Ram.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/src/Ram.cpp.o
+.PHONY : src/Ram.cpp.o
+
+src/Ram.i: src/Ram.cpp.i
+.PHONY : src/Ram.i
+
+# target to preprocess a source file
+src/Ram.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/src/Ram.cpp.i
+.PHONY : src/Ram.cpp.i
+
+src/Ram.s: src/Ram.cpp.s
+.PHONY : src/Ram.s
+
+# target to generate assembly for a file
+src/Ram.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/src/Ram.cpp.s
+.PHONY : src/Ram.cpp.s
+
 src/RandomNumberGenerator.o: src/RandomNumberGenerator.cpp.o
 .PHONY : src/RandomNumberGenerator.o
 
@@ -189,6 +261,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Define.o"
+	@echo "... src/Define.i"
+	@echo "... src/Define.s"
+	@echo "... src/Disc.o"
+	@echo "... src/Disc.i"
+	@echo "... src/Disc.s"
+	@echo "... src/Ram.o"
+	@echo "... src/Ram.i"
+	@echo "... src/Ram.s"
 	@echo "... src/RandomNumberGenerator.o"
 	@echo "... src/RandomNumberGenerator.i"
 	@echo "... src/RandomNumberGenerator.s"

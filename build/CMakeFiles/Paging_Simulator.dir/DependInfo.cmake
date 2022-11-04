@@ -9,6 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/leafar/Documentos/dev/c_projects/paging_simulator/main.cpp" "CMakeFiles/Paging_Simulator.dir/main.cpp.o" "gcc" "CMakeFiles/Paging_Simulator.dir/main.cpp.o.d"
+  "/home/leafar/Documentos/dev/c_projects/paging_simulator/src/Define.cpp" "CMakeFiles/Paging_Simulator.dir/src/Define.cpp.o" "gcc" "CMakeFiles/Paging_Simulator.dir/src/Define.cpp.o.d"
+  "/home/leafar/Documentos/dev/c_projects/paging_simulator/src/Disc.cpp" "CMakeFiles/Paging_Simulator.dir/src/Disc.cpp.o" "gcc" "CMakeFiles/Paging_Simulator.dir/src/Disc.cpp.o.d"
+  "/home/leafar/Documentos/dev/c_projects/paging_simulator/src/Ram.cpp" "CMakeFiles/Paging_Simulator.dir/src/Ram.cpp.o" "gcc" "CMakeFiles/Paging_Simulator.dir/src/Ram.cpp.o.d"
   "/home/leafar/Documentos/dev/c_projects/paging_simulator/src/RandomNumberGenerator.cpp" "CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.o" "gcc" "CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.o.d"
   )
 

@@ -1,6 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Paging_Simulator.dir/main.cpp.o"
   "CMakeFiles/Paging_Simulator.dir/main.cpp.o.d"
+  "CMakeFiles/Paging_Simulator.dir/src/Define.cpp.o"
+  "CMakeFiles/Paging_Simulator.dir/src/Define.cpp.o.d"
+  "CMakeFiles/Paging_Simulator.dir/src/Disc.cpp.o"
+  "CMakeFiles/Paging_Simulator.dir/src/Disc.cpp.o.d"
+  "CMakeFiles/Paging_Simulator.dir/src/Ram.cpp.o"
+  "CMakeFiles/Paging_Simulator.dir/src/Ram.cpp.o.d"
   "CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.o"
   "CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.o.d"
   "Paging_Simulator"

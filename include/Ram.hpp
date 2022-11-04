@@ -8,6 +8,6 @@ class Ram {
         Ram(Disc disc);
 
         void print() const;
-    private:
+    
         int data[RLINES][COLUMNS];
 };
