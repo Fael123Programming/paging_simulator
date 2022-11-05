@@ -16,6 +16,11 @@
 },
 {
   "directory": "/home/leafar/Documentos/dev/c_projects/paging_simulator/build",
+  "command": "/usr/bin/g++   -g -std=gnu++20 -o CMakeFiles/Paging_Simulator.dir/src/PageSubstitutionAlgorithm.cpp.o -c /home/leafar/Documentos/dev/c_projects/paging_simulator/src/PageSubstitutionAlgorithm.cpp",
+  "file": "/home/leafar/Documentos/dev/c_projects/paging_simulator/src/PageSubstitutionAlgorithm.cpp"
+},
+{
+  "directory": "/home/leafar/Documentos/dev/c_projects/paging_simulator/build",
   "command": "/usr/bin/g++   -g -std=gnu++20 -o CMakeFiles/Paging_Simulator.dir/src/Ram.cpp.o -c /home/leafar/Documentos/dev/c_projects/paging_simulator/src/Ram.cpp",
   "file": "/home/leafar/Documentos/dev/c_projects/paging_simulator/src/Ram.cpp"
 },
@@ -23,5 +28,10 @@
   "directory": "/home/leafar/Documentos/dev/c_projects/paging_simulator/build",
   "command": "/usr/bin/g++   -g -std=gnu++20 -o CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.o -c /home/leafar/Documentos/dev/c_projects/paging_simulator/src/RandomNumberGenerator.cpp",
   "file": "/home/leafar/Documentos/dev/c_projects/paging_simulator/src/RandomNumberGenerator.cpp"
+},
+{
+  "directory": "/home/leafar/Documentos/dev/c_projects/paging_simulator/build",
+  "command": "/usr/bin/g++   -g -std=gnu++20 -o CMakeFiles/Paging_Simulator.dir/src/WSClock.cpp.o -c /home/leafar/Documentos/dev/c_projects/paging_simulator/src/WSClock.cpp",
+  "file": "/home/leafar/Documentos/dev/c_projects/paging_simulator/src/WSClock.cpp"
 }
 ]

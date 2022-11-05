@@ -201,6 +201,30 @@ src/Disc.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/src/Disc.cpp.s
 .PHONY : src/Disc.cpp.s
 
+src/PageSubstitutionAlgorithm.o: src/PageSubstitutionAlgorithm.cpp.o
+.PHONY : src/PageSubstitutionAlgorithm.o
+
+# target to build an object file
+src/PageSubstitutionAlgorithm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/src/PageSubstitutionAlgorithm.cpp.o
+.PHONY : src/PageSubstitutionAlgorithm.cpp.o
+
+src/PageSubstitutionAlgorithm.i: src/PageSubstitutionAlgorithm.cpp.i
+.PHONY : src/PageSubstitutionAlgorithm.i
+
+# target to preprocess a source file
+src/PageSubstitutionAlgorithm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/src/PageSubstitutionAlgorithm.cpp.i
+.PHONY : src/PageSubstitutionAlgorithm.cpp.i
+
+src/PageSubstitutionAlgorithm.s: src/PageSubstitutionAlgorithm.cpp.s
+.PHONY : src/PageSubstitutionAlgorithm.s
+
+# target to generate assembly for a file
+src/PageSubstitutionAlgorithm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/src/PageSubstitutionAlgorithm.cpp.s
+.PHONY : src/PageSubstitutionAlgorithm.cpp.s
+
 src/Ram.o: src/Ram.cpp.o
 .PHONY : src/Ram.o
 
@@ -249,6 +273,30 @@ src/RandomNumberGenerator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.s
 .PHONY : src/RandomNumberGenerator.cpp.s
 
+src/WSClock.o: src/WSClock.cpp.o
+.PHONY : src/WSClock.o
+
+# target to build an object file
+src/WSClock.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/src/WSClock.cpp.o
+.PHONY : src/WSClock.cpp.o
+
+src/WSClock.i: src/WSClock.cpp.i
+.PHONY : src/WSClock.i
+
+# target to preprocess a source file
+src/WSClock.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/src/WSClock.cpp.i
+.PHONY : src/WSClock.cpp.i
+
+src/WSClock.s: src/WSClock.cpp.s
+.PHONY : src/WSClock.s
+
+# target to generate assembly for a file
+src/WSClock.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/src/WSClock.cpp.s
+.PHONY : src/WSClock.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -267,12 +315,18 @@ help:
 	@echo "... src/Disc.o"
 	@echo "... src/Disc.i"
 	@echo "... src/Disc.s"
+	@echo "... src/PageSubstitutionAlgorithm.o"
+	@echo "... src/PageSubstitutionAlgorithm.i"
+	@echo "... src/PageSubstitutionAlgorithm.s"
 	@echo "... src/Ram.o"
 	@echo "... src/Ram.i"
 	@echo "... src/Ram.s"
 	@echo "... src/RandomNumberGenerator.o"
 	@echo "... src/RandomNumberGenerator.i"
 	@echo "... src/RandomNumberGenerator.s"
+	@echo "... src/WSClock.o"
+	@echo "... src/WSClock.i"
+	@echo "... src/WSClock.s"
 .PHONY : help
 
 

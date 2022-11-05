@@ -19,6 +19,7 @@ void PageSubstitutionAlgorithm::simulate() {
         } else {  // Instruction isn't loaded on RAM, so it'll be needed to fetch it from disc.
             this->substitutePageFromDisc();
         }
+        this->updateCvt();
     }
 }
 

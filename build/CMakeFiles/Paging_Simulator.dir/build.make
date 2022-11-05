@@ -111,10 +111,24 @@ CMakeFiles/Paging_Simulator.dir/src/Disc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Paging_Simulator.dir/src/Disc.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leafar/Documentos/dev/c_projects/paging_simulator/src/Disc.cpp -o CMakeFiles/Paging_Simulator.dir/src/Disc.cpp.s
 
+CMakeFiles/Paging_Simulator.dir/src/PageSubstitutionAlgorithm.cpp.o: CMakeFiles/Paging_Simulator.dir/flags.make
+CMakeFiles/Paging_Simulator.dir/src/PageSubstitutionAlgorithm.cpp.o: /home/leafar/Documentos/dev/c_projects/paging_simulator/src/PageSubstitutionAlgorithm.cpp
+CMakeFiles/Paging_Simulator.dir/src/PageSubstitutionAlgorithm.cpp.o: CMakeFiles/Paging_Simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leafar/Documentos/dev/c_projects/paging_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Paging_Simulator.dir/src/PageSubstitutionAlgorithm.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Paging_Simulator.dir/src/PageSubstitutionAlgorithm.cpp.o -MF CMakeFiles/Paging_Simulator.dir/src/PageSubstitutionAlgorithm.cpp.o.d -o CMakeFiles/Paging_Simulator.dir/src/PageSubstitutionAlgorithm.cpp.o -c /home/leafar/Documentos/dev/c_projects/paging_simulator/src/PageSubstitutionAlgorithm.cpp
+
+CMakeFiles/Paging_Simulator.dir/src/PageSubstitutionAlgorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Paging_Simulator.dir/src/PageSubstitutionAlgorithm.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leafar/Documentos/dev/c_projects/paging_simulator/src/PageSubstitutionAlgorithm.cpp > CMakeFiles/Paging_Simulator.dir/src/PageSubstitutionAlgorithm.cpp.i
+
+CMakeFiles/Paging_Simulator.dir/src/PageSubstitutionAlgorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Paging_Simulator.dir/src/PageSubstitutionAlgorithm.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leafar/Documentos/dev/c_projects/paging_simulator/src/PageSubstitutionAlgorithm.cpp -o CMakeFiles/Paging_Simulator.dir/src/PageSubstitutionAlgorithm.cpp.s
+
 CMakeFiles/Paging_Simulator.dir/src/Ram.cpp.o: CMakeFiles/Paging_Simulator.dir/flags.make
 CMakeFiles/Paging_Simulator.dir/src/Ram.cpp.o: /home/leafar/Documentos/dev/c_projects/paging_simulator/src/Ram.cpp
 CMakeFiles/Paging_Simulator.dir/src/Ram.cpp.o: CMakeFiles/Paging_Simulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leafar/Documentos/dev/c_projects/paging_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Paging_Simulator.dir/src/Ram.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leafar/Documentos/dev/c_projects/paging_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Paging_Simulator.dir/src/Ram.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Paging_Simulator.dir/src/Ram.cpp.o -MF CMakeFiles/Paging_Simulator.dir/src/Ram.cpp.o.d -o CMakeFiles/Paging_Simulator.dir/src/Ram.cpp.o -c /home/leafar/Documentos/dev/c_projects/paging_simulator/src/Ram.cpp
 
 CMakeFiles/Paging_Simulator.dir/src/Ram.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/Paging_Simulator.dir/src/Ram.cpp.s: cmake_force
 CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.o: CMakeFiles/Paging_Simulator.dir/flags.make
 CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.o: /home/leafar/Documentos/dev/c_projects/paging_simulator/src/RandomNumberGenerator.cpp
 CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.o: CMakeFiles/Paging_Simulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leafar/Documentos/dev/c_projects/paging_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leafar/Documentos/dev/c_projects/paging_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.o -MF CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.o.d -o CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.o -c /home/leafar/Documentos/dev/c_projects/paging_simulator/src/RandomNumberGenerator.cpp
 
 CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.i: cmake_force
@@ -139,13 +153,29 @@ CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leafar/Documentos/dev/c_projects/paging_simulator/src/RandomNumberGenerator.cpp -o CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.s
 
+CMakeFiles/Paging_Simulator.dir/src/WSClock.cpp.o: CMakeFiles/Paging_Simulator.dir/flags.make
+CMakeFiles/Paging_Simulator.dir/src/WSClock.cpp.o: /home/leafar/Documentos/dev/c_projects/paging_simulator/src/WSClock.cpp
+CMakeFiles/Paging_Simulator.dir/src/WSClock.cpp.o: CMakeFiles/Paging_Simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leafar/Documentos/dev/c_projects/paging_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Paging_Simulator.dir/src/WSClock.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Paging_Simulator.dir/src/WSClock.cpp.o -MF CMakeFiles/Paging_Simulator.dir/src/WSClock.cpp.o.d -o CMakeFiles/Paging_Simulator.dir/src/WSClock.cpp.o -c /home/leafar/Documentos/dev/c_projects/paging_simulator/src/WSClock.cpp
+
+CMakeFiles/Paging_Simulator.dir/src/WSClock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Paging_Simulator.dir/src/WSClock.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leafar/Documentos/dev/c_projects/paging_simulator/src/WSClock.cpp > CMakeFiles/Paging_Simulator.dir/src/WSClock.cpp.i
+
+CMakeFiles/Paging_Simulator.dir/src/WSClock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Paging_Simulator.dir/src/WSClock.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leafar/Documentos/dev/c_projects/paging_simulator/src/WSClock.cpp -o CMakeFiles/Paging_Simulator.dir/src/WSClock.cpp.s
+
 # Object files for target Paging_Simulator
 Paging_Simulator_OBJECTS = \
 "CMakeFiles/Paging_Simulator.dir/main.cpp.o" \
 "CMakeFiles/Paging_Simulator.dir/src/Define.cpp.o" \
 "CMakeFiles/Paging_Simulator.dir/src/Disc.cpp.o" \
+"CMakeFiles/Paging_Simulator.dir/src/PageSubstitutionAlgorithm.cpp.o" \
 "CMakeFiles/Paging_Simulator.dir/src/Ram.cpp.o" \
-"CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.o"
+"CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.o" \
+"CMakeFiles/Paging_Simulator.dir/src/WSClock.cpp.o"
 
 # External object files for target Paging_Simulator
 Paging_Simulator_EXTERNAL_OBJECTS =
@@ -153,11 +183,13 @@ Paging_Simulator_EXTERNAL_OBJECTS =
 Paging_Simulator: CMakeFiles/Paging_Simulator.dir/main.cpp.o
 Paging_Simulator: CMakeFiles/Paging_Simulator.dir/src/Define.cpp.o
 Paging_Simulator: CMakeFiles/Paging_Simulator.dir/src/Disc.cpp.o
+Paging_Simulator: CMakeFiles/Paging_Simulator.dir/src/PageSubstitutionAlgorithm.cpp.o
 Paging_Simulator: CMakeFiles/Paging_Simulator.dir/src/Ram.cpp.o
 Paging_Simulator: CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.o
+Paging_Simulator: CMakeFiles/Paging_Simulator.dir/src/WSClock.cpp.o
 Paging_Simulator: CMakeFiles/Paging_Simulator.dir/build.make
 Paging_Simulator: CMakeFiles/Paging_Simulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leafar/Documentos/dev/c_projects/paging_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Paging_Simulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leafar/Documentos/dev/c_projects/paging_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Paging_Simulator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Paging_Simulator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

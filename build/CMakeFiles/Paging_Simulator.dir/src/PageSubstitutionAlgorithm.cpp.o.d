@@ -1,6 +1,10 @@
-CMakeFiles/Paging_Simulator.dir/main.cpp.o: \
- /home/leafar/Documentos/dev/c_projects/paging_simulator/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/12.2.0/iostream \
+CMakeFiles/Paging_Simulator.dir/src/PageSubstitutionAlgorithm.cpp.o: \
+ /home/leafar/Documentos/dev/c_projects/paging_simulator/src/PageSubstitutionAlgorithm.cpp \
+ /usr/include/stdc-predef.h \
+ /home/leafar/Documentos/dev/c_projects/paging_simulator/src/../include/PageSubstitutionAlgorithm.hpp \
+ /home/leafar/Documentos/dev/c_projects/paging_simulator/src/../include/Disc.hpp \
+ /home/leafar/Documentos/dev/c_projects/paging_simulator/src/../include/Define.hpp \
+ /usr/include/c++/12.2.0/iostream \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -138,8 +142,5 @@ CMakeFiles/Paging_Simulator.dir/main.cpp.o: \
  /usr/include/c++/12.2.0/bits/basic_ios.tcc \
  /usr/include/c++/12.2.0/bits/ostream.tcc /usr/include/c++/12.2.0/istream \
  /usr/include/c++/12.2.0/bits/istream.tcc \
- /home/leafar/Documentos/dev/c_projects/paging_simulator/include/Disc.hpp \
- /home/leafar/Documentos/dev/c_projects/paging_simulator/include/Define.hpp \
- /home/leafar/Documentos/dev/c_projects/paging_simulator/include/Ram.hpp \
- /home/leafar/Documentos/dev/c_projects/paging_simulator/include/PageSubstitutionAlgorithm.hpp \
- /home/leafar/Documentos/dev/c_projects/paging_simulator/include/RandomNumberGenerator.hpp
+ /home/leafar/Documentos/dev/c_projects/paging_simulator/src/../include/Ram.hpp \
+ /home/leafar/Documentos/dev/c_projects/paging_simulator/src/../include/RandomNumberGenerator.hpp

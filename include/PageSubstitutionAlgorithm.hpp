@@ -13,7 +13,9 @@ class PageSubstitutionAlgorithm {
 
         Ram ram;
 
-        virtual void substitutePageFromDisc();
+        virtual void substitutePageFromDisc() = 0;  // Pure virtual function.
+
+        virtual void updateData() = 0;
 
         int getPagePos(int instructionNumber) const;  
 };

@@ -56,7 +56,9 @@
 				1,
 				2,
 				3,
-				4
+				4,
+				5,
+				6
 			]
 		}
 	],
@@ -93,7 +95,9 @@
 				1,
 				2,
 				3,
-				4
+				4,
+				5,
+				6
 			]
 		}
 	],
@@ -120,6 +124,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "src/PageSubstitutionAlgorithm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "src/Ram.cpp",
 			"sourceGroupIndex" : 0
 		},
@@ -127,6 +137,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/RandomNumberGenerator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/WSClock.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
