@@ -153,6 +153,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Aging.o: src/Aging.cpp.o
+.PHONY : src/Aging.o
+
+# target to build an object file
+src/Aging.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/src/Aging.cpp.o
+.PHONY : src/Aging.cpp.o
+
+src/Aging.i: src/Aging.cpp.i
+.PHONY : src/Aging.i
+
+# target to preprocess a source file
+src/Aging.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/src/Aging.cpp.i
+.PHONY : src/Aging.cpp.i
+
+src/Aging.s: src/Aging.cpp.s
+.PHONY : src/Aging.s
+
+# target to generate assembly for a file
+src/Aging.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/src/Aging.cpp.s
+.PHONY : src/Aging.cpp.s
+
 src/Define.o: src/Define.cpp.o
 .PHONY : src/Define.o
 
@@ -309,6 +333,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Aging.o"
+	@echo "... src/Aging.i"
+	@echo "... src/Aging.s"
 	@echo "... src/Define.o"
 	@echo "... src/Define.i"
 	@echo "... src/Define.s"

@@ -1,20 +1,25 @@
 #include "Disc.hpp"
 #include "Ram.hpp"
 #include "PageSubstitutionAlgorithm.hpp"
+#include "RandomNumberGenerator.hpp"
 
-class WSClock : PageSubstitutionAlgorithm {
+class WSClock : public PageSubstitutionAlgorithm {
     public:
         WSClock(Disc disc, Ram ram, int t);
+
+        void execute();
     private:
         int lastAccessTime[RLINES]; // To keep last access time of each page in ram.
 
         int t;  // Aging interval.
 
-        int currentPos;  // Current page being referenced. Defaults to 0.
+        int currentPage;  // Current page being referenced. Defaults to 0.
 
-        long cvt; // cvt = current virtual time.
+        int cvt; // cvt = current virtual time.
 
-        void substitutePageFromDisc();
+        void updateCvt();
 
-        void updateData();
+        void substitutePageFromDisc(int pageInstruction);
+
+        void substitutePage(int pageInstruction, int pagePosOnRam);
 };

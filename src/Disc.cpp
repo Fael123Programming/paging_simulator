@@ -5,11 +5,11 @@
 Disc::Disc() {
     RandomNumberGenerator rng;
     for (int i = 0; i < DLINES; i++) {
-        this->data[i][0] = i; // Page number will be from 0 to 99.
-        this->data[i][1] = i + 1; // Instruction will be from 1 to 100.
+        this->data[i][0] = i;                           // Page number will be from 0 to 99.
+        this->data[i][1] = i + 1;                       // Instruction will be from 1 to 100.
         this->data[i][2] = rng.generateBetween(1, 50);  // Data will be a random number between 1-50.
-        this->data[i][3] = 0;  // Access bit is set to zero.
-        this->data[i][4] = 0;  // Modification bit is also set to zero.
+        this->data[i][3] = 0;                           // Access bit is set to zero.
+        this->data[i][4] = 0;                           // Modification bit is also set to zero.
     }
 }
 

@@ -143,4 +143,5 @@ CMakeFiles/Paging_Simulator.dir/src/WSClock.cpp.o: \
  /usr/include/c++/12.2.0/bits/ostream.tcc /usr/include/c++/12.2.0/istream \
  /usr/include/c++/12.2.0/bits/istream.tcc \
  /home/leafar/Documentos/dev/c_projects/paging_simulator/src/../include/Ram.hpp \
- /home/leafar/Documentos/dev/c_projects/paging_simulator/src/../include/PageSubstitutionAlgorithm.hpp
+ /home/leafar/Documentos/dev/c_projects/paging_simulator/src/../include/PageSubstitutionAlgorithm.hpp \
+ /home/leafar/Documentos/dev/c_projects/paging_simulator/src/../include/RandomNumberGenerator.hpp

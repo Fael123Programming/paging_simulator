@@ -1,26 +1,20 @@
 #include "../include/PageSubstitutionAlgorithm.hpp"
-#include "../include/RandomNumberGenerator.hpp"
 
 PageSubstitutionAlgorithm::PageSubstitutionAlgorithm(Disc d, Ram r) : disc(d), ram(r) {}
 
-void PageSubstitutionAlgorithm::simulate() {
-    RandomNumberGenerator rng;
-    int nextInstruction;
-    int pagePos;
-    for (int i = 0; i < INSTRUCTIONS; i++) {        // First page substitution algorithm.
-        nextInstruction = rng.generateBetween(1, 100);
-        pagePos = this->getPagePos(nextInstruction);
-        if (pagePos != -1) {                        // Instruction is loaded on RAM.
-            this->ram.data[pagePos][3] = 1;         // Read bit is set to 1.
-            if (rng.generateBetween(1, 10) <= 3) {  // 30% of chance of being modified.
-                this->ram.data[pagePos][2]++;       // Data is incremented.
-                this->ram.data[pagePos][4] = 1;     // Modification bit is set to 1.
-            }
-        } else {  // Instruction isn't loaded on RAM, so it'll be needed to fetch it from disc.
-            this->substitutePageFromDisc();
+void PageSubstitutionAlgorithm::registerPageOnDisc(int pagePosOnRam) {
+    int pageNumber = this->ram.data[pagePosOnRam][0];
+    for (int i = 0; i < DLINES; i++) {
+        if (this->disc.data[i][0] == pageNumber) {
+            this->disc.data[i][2] = this->ram.data[pagePosOnRam][2];
+            this->ram.data[pagePosOnRam][4] = 0;  // Page is equal to what's on disc.
+            std::cout << "##### Disc written #####\n";
+            this->disc.print();
+            return;
         }
-        this->updateCvt();
     }
+    std::cout << "##### ERROR: Page with number '" << pageNumber << "' wasn't found on disc #####\n";
+    exit(-1);
 }
 
 int PageSubstitutionAlgorithm::getPagePos(int instructionNumber) const {
@@ -30,4 +24,21 @@ int PageSubstitutionAlgorithm::getPagePos(int instructionNumber) const {
         }
     }
     return -1;
+}
+
+int PageSubstitutionAlgorithm::nextInstruction() {
+    RandomNumberGenerator rng;
+    int nextInstruction = rng.generateBetween(1, 100);
+    std::cout << "##### Next instruction: " << nextInstruction << " #####\n";
+    int pagePos = this->getPagePos(nextInstruction);
+    if (pagePos != -1) {                        // Instruction is loaded on RAM.
+        this->ram.data[pagePos][3] = 1;         // Read bit is set to 1.
+        if (rng.generateBetween(1, 10) <= 3) {  // 30% of chance of being modified.
+            this->ram.data[pagePos][2]++;       // Data is incremented by one.
+            this->ram.data[pagePos][4] = 1;     // Modification bit is set to 1.
+        }
+    } else {  // Instruction isn't loaded on RAM, so it'll be needed to fetch it from disc.
+        this->substitutePageFromDisc(nextInstruction);
+    }
+    return pagePos;
 }
