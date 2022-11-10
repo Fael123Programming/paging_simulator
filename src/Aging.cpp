@@ -33,7 +33,7 @@ void Aging::updateCounts() {
     }
 }
 
-void Aging::substitutePageFromDisc(int pageInstruction) {
+int Aging::findPageInRam() {
     std::cout << "##### Instruction is not on ram #####\n";
     std::cout << "##### Loading it from disc... #####\n";
     int posSmallestCount = 0;
@@ -44,15 +44,7 @@ void Aging::substitutePageFromDisc(int pageInstruction) {
             posSmallestCount = i;
         }
     }
-    int posDisc;
-    for (int i = 0; i < DLINES; i++) {
-        if (this->disc.data[i][1] == pageInstruction) {
-            this->substitutePage(i, posSmallestCount);
-            return;
-        }
-    }
-    std::cout << "##### ERROR: Page with instruction '" << pageInstruction << "' wasn't found on disc #####\n";
-    exit(-1);
+    return posSmallestCount;
 }
 
 void Aging::substitutePage(int pagePosOnDisc, int pagePosOnRam) {

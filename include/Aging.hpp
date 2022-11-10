@@ -19,7 +19,7 @@ class Aging : public PageSubstitutionAlgorithm {
 
         void updateCounts();
 
-        void substitutePageFromDisc(int pageInstruction);
+        int findPageInRam();
 
         void substitutePage(int pageInstruction, int pagePosOnRam);
 };

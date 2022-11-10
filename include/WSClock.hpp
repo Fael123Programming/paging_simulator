@@ -19,7 +19,5 @@ class WSClock : public PageSubstitutionAlgorithm  {
 
         void updateCvt();
 
-        void substitutePageFromDisc(int pageInstruction);
-
-        void substitutePage(int pageInstruction, int pagePosOnRam);
+        int findPageInRam();
 };

@@ -4,11 +4,21 @@ PageSubstitutionAlgorithm::PageSubstitutionAlgorithm() {}
 
 PageSubstitutionAlgorithm::PageSubstitutionAlgorithm(Disc d, Ram r) : disc(d), ram(r) {}
 
-void PageSubstitutionAlgorithm::execute() {}
+int PageSubstitutionAlgorithm::findPageInDisc(int pageInstruction) const {
+    for (int i = 0; i < DLINES; i++) {
+        if (this->disc.data[i][1] == pageInstruction) {
+            return i;
+        }
+    }
+    std::cout << "##### ERROR: Page with instruction '" << pageInstruction << "' wasn't found on disc #####\n";
+    exit(-1);
+}
 
-void PageSubstitutionAlgorithm::substitutePageFromDisc(int pageInstruction) {}
-
-void PageSubstitutionAlgorithm::substitutePage(int pageInstruction, int pagePosOnRam) {}
+void PageSubstitutionAlgorithm::substitutePage(int posPageRam, int posPageDisc) {
+    for (int i = 0; i < COLUMNS; i++) {
+        this->ram.data[posPageRam][i] = this->disc.data[posPageDisc][i];
+    }
+}
 
 void PageSubstitutionAlgorithm::registerPageOnDisc(int pagePosOnRam) {  
     int pageNumber = this->ram.data[pagePosOnRam][0];
@@ -27,9 +37,9 @@ void PageSubstitutionAlgorithm::registerPageOnDisc(int pagePosOnRam) {
 
 int PageSubstitutionAlgorithm::nextInstruction() {
     RandomNumberGenerator rng;
-    int nextInstruction = rng.generateBetween(1, 100);
+    int nextInstruction = rng.generateBetween(1, 100), posPageRam, posPageDisc;
     std::cout << "##### Next instruction: " << nextInstruction << " #####\n";
-    int pagePos = this->getPagePos(nextInstruction);
+    int pagePos = this->getPagePosFromRam(nextInstruction);
     if (pagePos != -1) {                        // Instruction is loaded on RAM.
         this->ram.data[pagePos][3] = 1;         // Read bit is set to 1.
         if (rng.generateBetween(1, 10) <= 3) {  // 30% of chance of being modified.
@@ -37,12 +47,14 @@ int PageSubstitutionAlgorithm::nextInstruction() {
             this->ram.data[pagePos][4] = 1;     // Modification bit is set to 1.
         }
     } else {  // Instruction isn't loaded on RAM, so it'll be needed to fetch it from disc.
-        this->substitutePageFromDisc(nextInstruction);
+        posPageRam = this->findPageInRam();
+        posPageDisc = this->findPageInDisc(nextInstruction);
+        this->substitutePage(posPageRam, posPageDisc);
     }
     return pagePos;
 }
 
-int PageSubstitutionAlgorithm::getPagePos(int instructionNumber) const {
+int PageSubstitutionAlgorithm::getPagePosFromRam(int instructionNumber) const {
     for (int i = 0; i < RLINES; i++) {
         if (this->ram.data[i][1] == instructionNumber) {
             return i;
