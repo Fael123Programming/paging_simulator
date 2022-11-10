@@ -6,17 +6,19 @@
 
 class PageSubstitutionAlgorithm {
     public:
+        PageSubstitutionAlgorithm();
+
         PageSubstitutionAlgorithm(Disc d, Ram r);
 
-        virtual void execute() = 0;
+        virtual void execute();
     protected:
         Disc disc;
 
-        Ram ram;
+        Ram ram;    
 
-        virtual void substitutePageFromDisc(int pageInstruction) = 0;
+        virtual void substitutePageFromDisc(int pageInstruction);
 
-        virtual void substitutePage(int pageInstruction, int pagePosOnRam) = 0;
+        virtual void substitutePage(int pageInstruction, int pagePosOnRam);
 
         void registerPageOnDisc(int pagePosOnRam);
 

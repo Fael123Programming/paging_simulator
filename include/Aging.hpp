@@ -5,13 +5,13 @@
 #include "PageSubstitutionAlgorithm.hpp"
 #include "RandomNumberGenerator.hpp"
 
-class Aging : PageSubstitutionAlgorithm {
+class Aging : public PageSubstitutionAlgorithm {
     public:
-        Aging(Disc d, Ram r, int x);
+        Aging(Disc disc, Ram ram);
 
         void execute();
     private: 
-        int x;
+        int clockInterruptions;
 
         int counts[RLINES];
 

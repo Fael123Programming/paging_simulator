@@ -1,8 +1,16 @@
 #include "../include/PageSubstitutionAlgorithm.hpp"
 
+PageSubstitutionAlgorithm::PageSubstitutionAlgorithm() {}
+
 PageSubstitutionAlgorithm::PageSubstitutionAlgorithm(Disc d, Ram r) : disc(d), ram(r) {}
 
-void PageSubstitutionAlgorithm::registerPageOnDisc(int pagePosOnRam) {
+void PageSubstitutionAlgorithm::execute() {}
+
+void PageSubstitutionAlgorithm::substitutePageFromDisc(int pageInstruction) {}
+
+void PageSubstitutionAlgorithm::substitutePage(int pageInstruction, int pagePosOnRam) {}
+
+void PageSubstitutionAlgorithm::registerPageOnDisc(int pagePosOnRam) {  
     int pageNumber = this->ram.data[pagePosOnRam][0];
     for (int i = 0; i < DLINES; i++) {
         if (this->disc.data[i][0] == pageNumber) {
@@ -15,15 +23,6 @@ void PageSubstitutionAlgorithm::registerPageOnDisc(int pagePosOnRam) {
     }
     std::cout << "##### ERROR: Page with number '" << pageNumber << "' wasn't found on disc #####\n";
     exit(-1);
-}
-
-int PageSubstitutionAlgorithm::getPagePos(int instructionNumber) const {
-    for (int i = 0; i < RLINES; i++) {
-        if (this->ram.data[i][1] == instructionNumber) {
-            return i;
-        }
-    }
-    return -1;
 }
 
 int PageSubstitutionAlgorithm::nextInstruction() {
@@ -42,3 +41,13 @@ int PageSubstitutionAlgorithm::nextInstruction() {
     }
     return pagePos;
 }
+
+int PageSubstitutionAlgorithm::getPagePos(int instructionNumber) const {
+    for (int i = 0; i < RLINES; i++) {
+        if (this->ram.data[i][1] == instructionNumber) {
+            return i;
+        }
+    }
+    return -1;
+}
+

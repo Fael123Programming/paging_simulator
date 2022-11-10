@@ -1,16 +1,16 @@
 #include "../include/Aging.hpp"
 
-Aging::Aging(Disc d, Ram r, int x) : PageSubstitutionAlgorithm(d, r), x(x) {
+Aging::Aging(Disc disc, Ram ram) : PageSubstitutionAlgorithm(disc, ram), clockInterruptions(CLOCK_INTERRUPTIONS) {
     for (int i = 0; i < RLINES; i++) {
         this->counts[i] = 0;
-    }
+    } 
 }
 
 void Aging::execute() {
     int counter = 1;
     for (int i = 0; i < INSTRUCTIONS; i++) {
         this->nextInstruction();
-        if (counter == this->x) {
+        if (counter == this->clockInterruptions) {
             this->updateCounts();
             counter = 1;
         }

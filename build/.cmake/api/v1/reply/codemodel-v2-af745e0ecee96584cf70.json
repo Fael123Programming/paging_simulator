@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/leafar/Documentos/dev/c_projects/paging_simulator/build",
-		"source" : "/home/leafar/Documentos/dev/c_projects/paging_simulator"
+		"build" : "/home/leafar/Documents/dev/c_projects/paging_simulator/build",
+		"source" : "/home/leafar/Documents/dev/c_projects/paging_simulator"
 	},
 	"version" : 
 	{

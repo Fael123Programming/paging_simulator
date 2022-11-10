@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/leafar/Documentos/dev/c_projects/paging_simulator/build"
+			"value" : "/home/leafar/Documents/dev/c_projects/paging_simulator/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -555,7 +555,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/leafar/Documentos/dev/c_projects/paging_simulator/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/leafar/Documents/dev/c_projects/paging_simulator/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -615,7 +615,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/leafar/Documentos/dev/c_projects/paging_simulator"
+			"value" : "/home/leafar/Documents/dev/c_projects/paging_simulator"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1151,7 +1151,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/leafar/Documentos/dev/c_projects/paging_simulator/build"
+			"value" : "/home/leafar/Documents/dev/c_projects/paging_simulator/build"
 		},
 		{
 			"name" : "Paging_Simulator_IS_TOP_LEVEL",
@@ -1175,7 +1175,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/leafar/Documentos/dev/c_projects/paging_simulator"
+			"value" : "/home/leafar/Documents/dev/c_projects/paging_simulator"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

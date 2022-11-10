@@ -3,6 +3,8 @@
 #include <set>
 #include <iomanip>
 
+Ram::Ram() {}
+
 Ram::Ram(Disc disc) {
     RandomNumberGenerator rng;
     int random;

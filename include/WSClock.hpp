@@ -3,15 +3,15 @@
 #include "PageSubstitutionAlgorithm.hpp"
 #include "RandomNumberGenerator.hpp"
 
-class WSClock : public PageSubstitutionAlgorithm {
+class WSClock : public PageSubstitutionAlgorithm  {
     public:
-        WSClock(Disc disc, Ram ram, int t);
+        WSClock(Disc disc, Ram ram);
 
         void execute();
     private:
         int lastAccessTime[RLINES]; // To keep last access time of each page in ram.
 
-        int t;  // Aging interval.
+        int agingInterval;
 
         int currentPage;  // Current page being referenced. Defaults to 0.
 

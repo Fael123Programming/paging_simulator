@@ -1,4 +1,4 @@
-# Install script for directory: /home/leafar/Documentos/dev/c_projects/paging_simulator
+# Install script for directory: /home/leafar/Documents/dev/c_projects/paging_simulator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/leafar/Documentos/dev/c_projects/paging_simulator/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/leafar/Documents/dev/c_projects/paging_simulator/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

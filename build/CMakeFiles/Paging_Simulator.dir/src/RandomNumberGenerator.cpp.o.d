@@ -1,5 +1,5 @@
 CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.o: \
- /home/leafar/Documentos/dev/c_projects/paging_simulator/src/RandomNumberGenerator.cpp \
+ /home/leafar/Documents/dev/c_projects/paging_simulator/src/RandomNumberGenerator.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/12.2.0/random \
  /usr/include/c++/12.2.0/cmath \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -134,4 +134,4 @@ CMakeFiles/Paging_Simulator.dir/src/RandomNumberGenerator.cpp.o: \
  /usr/include/c++/12.2.0/bits/stl_numeric.h /usr/include/c++/12.2.0/bit \
  /usr/include/c++/12.2.0/pstl/glue_numeric_defs.h \
  /usr/include/c++/12.2.0/pstl/execution_defs.h \
- /home/leafar/Documentos/dev/c_projects/paging_simulator/src/../include/RandomNumberGenerator.hpp
+ /home/leafar/Documents/dev/c_projects/paging_simulator/src/../include/RandomNumberGenerator.hpp

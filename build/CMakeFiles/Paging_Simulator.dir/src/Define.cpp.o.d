@@ -1,7 +1,7 @@
 CMakeFiles/Paging_Simulator.dir/src/Define.cpp.o: \
- /home/leafar/Documentos/dev/c_projects/paging_simulator/src/Define.cpp \
+ /home/leafar/Documents/dev/c_projects/paging_simulator/src/Define.cpp \
  /usr/include/stdc-predef.h \
- /home/leafar/Documentos/dev/c_projects/paging_simulator/src/../include/Define.hpp \
+ /home/leafar/Documents/dev/c_projects/paging_simulator/src/../include/Define.hpp \
  /usr/include/c++/12.2.0/iostream \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \

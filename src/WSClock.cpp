@@ -1,6 +1,6 @@
 #include "../include/WSClock.hpp"
 
-WSClock::WSClock(Disc d, Ram r, int interval) : PageSubstitutionAlgorithm(d, r), t(interval), currentPage(0), cvt(1) {
+WSClock::WSClock(Disc disc, Ram ram) : PageSubstitutionAlgorithm(disc, ram), agingInterval(AGING_INTERVAL), currentPage(0), cvt(1) {
     for (int i = 0; i < RLINES; i++) {
         this->lastAccessTime[i] = 0;
     }
@@ -65,7 +65,7 @@ void WSClock::substitutePageFromDisc(int pageInstruction) {
                 ageCurrentPage = this->cvt - this->lastAccessTime[this->currentPage];
             // std::cout << "ageCurrentPage=" << ageCurrentPage << std::endl;
             // std::cout << "ageOldestPage=" << ageOldestPage << std::endl;
-                if (ageCurrentPage <= this->t) {
+                if (ageCurrentPage <= this->agingInterval) {
                     ageOldestPage = this->cvt - this->lastAccessTime[posOnRamOldestPage];
                     if (ageCurrentPage > ageOldestPage) {
                         posOnRamOldestPage = this->currentPage;

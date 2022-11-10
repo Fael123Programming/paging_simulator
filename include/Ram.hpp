@@ -5,6 +5,8 @@
 
 class Ram {
     public:
+        Ram();
+
         Ram(Disc disc);
 
         void print() const;
