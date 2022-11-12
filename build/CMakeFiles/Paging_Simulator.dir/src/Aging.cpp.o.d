@@ -144,4 +144,5 @@ CMakeFiles/Paging_Simulator.dir/src/Aging.cpp.o: \
  /usr/include/c++/12.2.0/bits/istream.tcc \
  /home/leafar/Documents/dev/c_projects/paging_simulator/src/../include/Ram.hpp \
  /home/leafar/Documents/dev/c_projects/paging_simulator/src/../include/PageSubstitutionAlgorithm.hpp \
- /home/leafar/Documents/dev/c_projects/paging_simulator/src/../include/RandomNumberGenerator.hpp
+ /home/leafar/Documents/dev/c_projects/paging_simulator/src/../include/RandomNumberGenerator.hpp \
+ /home/leafar/Documents/dev/c_projects/paging_simulator/src/../include/Count.hpp

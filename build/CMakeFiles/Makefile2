@@ -81,12 +81,12 @@ clean: CMakeFiles/Paging_Simulator.dir/clean
 CMakeFiles/Paging_Simulator.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paging_Simulator.dir/build.make CMakeFiles/Paging_Simulator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leafar/Documents/dev/c_projects/paging_simulator/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target Paging_Simulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leafar/Documents/dev/c_projects/paging_simulator/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target Paging_Simulator"
 .PHONY : CMakeFiles/Paging_Simulator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Paging_Simulator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leafar/Documents/dev/c_projects/paging_simulator/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leafar/Documents/dev/c_projects/paging_simulator/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Paging_Simulator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leafar/Documents/dev/c_projects/paging_simulator/build/CMakeFiles 0
 .PHONY : CMakeFiles/Paging_Simulator.dir/rule

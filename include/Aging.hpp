@@ -3,6 +3,7 @@
 #include "Disc.hpp"
 #include "Ram.hpp"
 #include "PageSubstitutionAlgorithm.hpp"
+#include "Count.hpp"
 #include "RandomNumberGenerator.hpp"
 
 class Aging : public PageSubstitutionAlgorithm {
@@ -13,7 +14,7 @@ class Aging : public PageSubstitutionAlgorithm {
     private: 
         int clockInterruptions;
 
-        int counts[RLINES];
+        Count counts[RLINES];
 
         void countOneForEachPage();
 

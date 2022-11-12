@@ -1,10 +1,6 @@
 #include "../include/Aging.hpp"
 
-Aging::Aging(Disc disc, Ram ram) : PageSubstitutionAlgorithm(disc, ram), clockInterruptions(CLOCK_INTERRUPTIONS) {
-    for (int i = 0; i < RLINES; i++) {
-        this->counts[i] = 0;
-    } 
-}
+Aging::Aging(Disc disc, Ram ram) : PageSubstitutionAlgorithm(disc, ram), clockInterruptions(CLOCK_INTERRUPTIONS) {}
 
 void Aging::execute() {
     int counter = 1;
@@ -22,14 +18,14 @@ void Aging::execute() {
 
 void Aging::countOneForEachPage() {
     for (int i = 0; i < RLINES; i++) {
-        this->counts[i]++;
+        this->counts[i].increment();
     }
 }
 
 void Aging::updateCounts() {
-    for (int j = 0; j < RLINES; j++) {
-        this->counts[j] >>= 1;  
-        this->counts[j] |= this->ram.data[j][3];
+    for (int i = 0; i < RLINES; i++) {
+        this->counts[i].shiftRight();  
+        this->counts[i].putAsMostSignificantBit(this->ram.data[i][3]);
     }
 }
 
@@ -37,10 +33,8 @@ int Aging::findPageInRam() {
     std::cout << "##### Instruction is not on ram #####\n";
     std::cout << "##### Loading it from disc... #####\n";
     int posSmallestCount = 0;
-    for (int i = 0; i < RLINES; i++) {
-        if (i == 0) {
-            posSmallestCount = 0;
-        } else if (this->counts[i] < this->counts[posSmallestCount]) {
+    for (int i = 1; i < RLINES; i++) {
+        if (this->counts[i] < this->counts[posSmallestCount]) {
             posSmallestCount = i;
         }
     }

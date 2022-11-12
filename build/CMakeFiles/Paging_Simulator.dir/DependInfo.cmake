@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/leafar/Documents/dev/c_projects/paging_simulator/main.cpp" "CMakeFiles/Paging_Simulator.dir/main.cpp.o" "gcc" "CMakeFiles/Paging_Simulator.dir/main.cpp.o.d"
   "/home/leafar/Documents/dev/c_projects/paging_simulator/src/Aging.cpp" "CMakeFiles/Paging_Simulator.dir/src/Aging.cpp.o" "gcc" "CMakeFiles/Paging_Simulator.dir/src/Aging.cpp.o.d"
+  "/home/leafar/Documents/dev/c_projects/paging_simulator/src/Count.cpp" "CMakeFiles/Paging_Simulator.dir/src/Count.cpp.o" "gcc" "CMakeFiles/Paging_Simulator.dir/src/Count.cpp.o.d"
   "/home/leafar/Documents/dev/c_projects/paging_simulator/src/Define.cpp" "CMakeFiles/Paging_Simulator.dir/src/Define.cpp.o" "gcc" "CMakeFiles/Paging_Simulator.dir/src/Define.cpp.o.d"
   "/home/leafar/Documents/dev/c_projects/paging_simulator/src/Disc.cpp" "CMakeFiles/Paging_Simulator.dir/src/Disc.cpp.o" "gcc" "CMakeFiles/Paging_Simulator.dir/src/Disc.cpp.o.d"
   "/home/leafar/Documents/dev/c_projects/paging_simulator/src/PageSubstitutionAlgorithm.cpp" "CMakeFiles/Paging_Simulator.dir/src/PageSubstitutionAlgorithm.cpp.o" "gcc" "CMakeFiles/Paging_Simulator.dir/src/PageSubstitutionAlgorithm.cpp.o.d"

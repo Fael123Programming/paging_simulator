@@ -10,5 +10,6 @@
 #define INSTRUCTIONS 500
 #define AGING_INTERVAL 10
 #define CLOCK_INTERRUPTIONS 10
+#define COUNT_SIZE 8
 
 void row();

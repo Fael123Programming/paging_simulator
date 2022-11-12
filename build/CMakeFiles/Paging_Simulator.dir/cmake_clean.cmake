@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Paging_Simulator.dir/main.cpp.o.d"
   "CMakeFiles/Paging_Simulator.dir/src/Aging.cpp.o"
   "CMakeFiles/Paging_Simulator.dir/src/Aging.cpp.o.d"
+  "CMakeFiles/Paging_Simulator.dir/src/Count.cpp.o"
+  "CMakeFiles/Paging_Simulator.dir/src/Count.cpp.o.d"
   "CMakeFiles/Paging_Simulator.dir/src/Define.cpp.o"
   "CMakeFiles/Paging_Simulator.dir/src/Define.cpp.o.d"
   "CMakeFiles/Paging_Simulator.dir/src/Disc.cpp.o"

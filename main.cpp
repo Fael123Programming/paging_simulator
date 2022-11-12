@@ -8,7 +8,7 @@
 int main() {
     Disc disc;
     Ram ram(disc);
-    // WSClock wsc(disc, ram);
+    WSClock wsc(disc, ram);
     Aging ag(disc, ram);
     PageSubstitutionAlgorithm *psa;
     // psa = &wsc;
